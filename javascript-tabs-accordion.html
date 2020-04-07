@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Tabs Accordion</title>
+    <link rel="stylesheet" href="./javascript-tabs-accordion.css" type="text/css">
+</head>
+<body>
+<div class="container">
+    <h1>Horizontal Tabs Accordion</h1>
+    <br/><br/>
+    <div id="tabs-data-1" class="tabs-data-container">
+        <div class="tabs-data-menu">
+            <ul>
+                <li class="tabs-current">
+                    <span class="tab-link">Tab 1</span>
+                </li>
+                <li>
+                    <span class="tab-link">Tab 2</span>
+                </li>
+            </ul>
+        </div>
+        <div class="tabs-data">
+            <div class="tabs-data-item tabs-current">
+                <h3 class="tabs-data-item__title js-tabs-accordion tabs-current">
+                    <span class="tab-link">Tab 1</span>
+                </h3>
+                <div class="tabs-data-item__content">
+                    Tab Item 1 Content...
+                </div>
+            </div>
+            <div class="tabs-data-item ">
+                <h3 class="tabs-data-item__title js-tabs-accordion">
+                    <span class="tab-link">Tab 2</span>
+                </h3>
+                <div class="tabs-data-item__content">
+                    Tab Item 2 Content...
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/><br/>
+    <hr/>
+    <h2>Vertical Tabs Accordion</h2>
+    <br/><br/>
+    <div id="tabs-data-2" class="tabs-data-container tabs-data-vertical">
+        <div class="tabs-data-menu">
+            <ul>
+                <li class="tabs-current">
+                    <span class="tab-link">Tab 1</span>
+                </li>
+                <li>
+                    <span class="tab-link">Tab 2</span>
+                </li>
+                <li>
+                    <span class="tab-link">Tab 3</span>
+                </li>
+                <li>
+                    <span class="tab-link">Tab 4</span>
+                </li>
+            </ul>
+        </div>
+        <div class="tabs-data">
+            <div class="tabs-data-item tabs-current">
+                <h3 class="tabs-data-item__title js-tabs-accordion tabs-current">
+                    <span class="tab-link">Tab 1</span>
+                </h3>
+                <div class="tabs-data-item__content">
+                    Tab 1 Content ....
+                </div>
+            </div>
+            <div class="tabs-data-item ">
+                <h3 class="tabs-data-item__title js-tabs-accordion">
+                    <span class="tab-link">Tab 2</span>
+                </h3>
+                <div class="tabs-data-item__content">
+                    Tab 2 Content ...
+                </div>
+            </div>
+            <div class="tabs-data-item ">
+                <h3 class="tabs-data-item__title js-tabs-accordion">
+                    <span class="tab-link">Tab 3</span>
+                </h3>
+                <div class="tabs-data-item__content">
+                    Tab 3 Content ...
+                </div>
+            </div>
+            <div class="tabs-data-item ">
+                <h3 class="tabs-data-item__title js-tabs-accordion">
+                    <span class="tab-link">Tab 4</span>
+                </h3>
+                <div class="tabs-data-item__content">
+                    Tab 4 Content ...
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./javascript-tabs-accordion.js" type="text/javascript"></script>
+</body>
+</html>
